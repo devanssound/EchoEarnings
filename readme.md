@@ -8,6 +8,23 @@ EchoEarnings is a web-based application that transitions the functionality of a 
 ### Prerequisites
 - Node.js
 - Git
+  
+    Node.js: Ensure Node.js is installed on your system. 
+    You can check this by running the following command in your terminal:
+
+
+            node -v
+
+
+    If the command returns a version number, Node.js is installed.
+  
+    If not, download and install it from Node.js official website.
+
+  
+
+Git: Make sure Git is installed for cloning the repository. You can download it from Git Downloads.
+
+
 
 1. Clone the Repository:
 
@@ -73,20 +90,3 @@ Contributions are welcome. Please read our [contribution guidelines](CONTRIBUTIN
 ## License
 
 This project is licensed under the MIT License.
-
-Starting the Application:
-
-Prerequisites:
-
-    Node.js: Ensure Node.js is installed on your system. 
-    You can check this by running the following command in your terminal:
-
-        bash
-
-            node -v
-
-
-    If the command returns a version number, Node.js is installed. 
-    If not, download and install it from Node.js official website.
-
-    Git: Make sure Git is installed for cloning the repository. You can download it from Git Downloads.
