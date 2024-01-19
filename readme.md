@@ -1,13 +1,17 @@
 # EchoEarnings
 
+
 ## Overview
-EchoEarnings is a web-based application that transitions the functionality of a PowerShell-based Salary Calculator into a more accessible and user-friendly interface. It allows users to calculate annual and after-tax salaries based on hourly or annual income.
+EchoEarnings - web application to transition the functionality of a PowerShell-based Salary Calculator into a more accessible and user-friendly interface. 
+
 
 ## Getting Started
+
 
 ### Prerequisites
 - Node.js
 - Git
+  
   
     Node.js: Ensure Node.js is installed on your system. 
     You can check this by running the following command in your terminal:
@@ -22,8 +26,6 @@ EchoEarnings is a web-based application that transitions the functionality of a 
 
   
 
-Git: Make sure Git is installed for cloning the repository. You can download it from Git Downloads.
-
 
 
 1. Clone the Repository:
@@ -36,6 +38,7 @@ Git: Make sure Git is installed for cloning the repository. You can download it 
 
 
        cd EchoEarnings
+
 
 
 ### Installation
@@ -57,6 +60,7 @@ Git: Make sure Git is installed for cloning the repository. You can download it 
 
        npm install
 
+
 ### Usage
 
 1. Start the Server (if using server.js):
@@ -75,6 +79,7 @@ Git: Make sure Git is installed for cloning the repository. You can download it 
 
     For development purposes, you can open the index.html file located in the webapp directory directly in a browser.
 
+
 ### Notes:
 
 - **Customization**: Customize the `README.md` content based on your project specifics, contribution guidelines, and any additional information you want to include.
@@ -83,9 +88,11 @@ Git: Make sure Git is installed for cloning the repository. You can download it 
 
 These instructions and the README content provide a clear guide for setting up, running, and understanding the structure and purpose of the EchoEarnings web application.
 
+
 ## Contributing
 
 Contributions are welcome. Please read our [contribution guidelines](CONTRIBUTING.md) before submitting a pull request.
+
 
 ## License
 
