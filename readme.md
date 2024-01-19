@@ -11,33 +11,32 @@ EchoEarnings is a web-based application that transitions the functionality of a 
 
 1. Clone the Repository:
 
-        bash
 
             git clone https://github.com/your-username/EchoEarnings.git
+
                         
 2. Navigate to the project directory:
 
-        bash
 
             cd EchoEarnings
+
 
 ### Installation
 
 1. Clone the repository:
 
-        bash
+
             git clone https://github.com/your-username/EchoEarnings.git
 
                    
 2. Navigate to the project directory:
 
-        bash
 
             cd EchoEarnings
 
+
 3. Install dependencies:
 
-        bash
 
             npm install
 
@@ -45,9 +44,9 @@ EchoEarnings is a web-based application that transitions the functionality of a 
 
 1. Start the Server (if using server.js):
 
-        bash
 
         npm start
+
 
 2. Running the Application:
 
