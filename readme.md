@@ -13,7 +13,7 @@ EchoEarnings is a web-based application that transitions the functionality of a 
     You can check this by running the following command in your terminal:
 
 
-            node -v
+        node -v
 
 
     If the command returns a version number, Node.js is installed.
@@ -29,13 +29,13 @@ Git: Make sure Git is installed for cloning the repository. You can download it 
 1. Clone the Repository:
 
 
-            git clone https://github.com/your-username/EchoEarnings.git
+       git clone https://github.com/your-username/EchoEarnings.git
 
                         
 2. Navigate to the project directory:
 
 
-            cd EchoEarnings
+       cd EchoEarnings
 
 
 ### Installation
@@ -43,19 +43,19 @@ Git: Make sure Git is installed for cloning the repository. You can download it 
 1. Clone the repository:
 
 
-            git clone https://github.com/your-username/EchoEarnings.git
+       git clone https://github.com/your-username/EchoEarnings.git
 
                    
 2. Navigate to the project directory:
 
 
-            cd EchoEarnings
+       cd EchoEarnings
 
 
 3. Install dependencies:
 
 
-            npm install
+       npm install
 
 ### Usage
 
