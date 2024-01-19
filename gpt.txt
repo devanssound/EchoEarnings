@@ -1,0 +1,65 @@
+Project Name: EchoEarnings
+
+Description: Transitioning from a PowerShell-based Salary Calculator to a web application. The web app allows users to calculate annual and after-tax salaries based on hourly or annual income.
+
+EchoEarnings/
+│
+├── webapp/                          # Root directory for the web application
+│   ├── css/                         # CSS files for styling
+│   │   └── style.css                # Main stylesheet
+│   │
+│   ├── js/                          # JavaScript files for logic and interaction
+│   │   ├── calculator.js            # Script for main calculations
+│   │   ├── inputHandler.js          # Handles user input (Optional)
+│   │   └── outputHandler.js         # Manages output display (Optional)
+│   │
+│   ├── index.html                   # Main HTML file for the application interface
+│   ├── about.html                   # Additional HTML pages, if required
+│   └── favicon.ico                  # Website favicon
+│
+├── server/                          # Server-side code (if using Node.js)
+│   └── server.js                    # Main server file (Node.js/Express)
+│
+├── old_powershell/                  # Directory for old PowerShell files
+│   ├── ...                          # Contains original PowerShell scripts and GUI files
+│
+├── .gitignore                       # Git ignore file for untracked files
+├── package.json                     # Node.js package file for dependencies and scripts
+└── README.md                        # Comprehensive documentation for the project
+
+Key File Descriptions:
+
+    index.html:
+        Serves as the user interface for the web application.
+        Includes a form for input (hourly wage or annual salary) and a display area for results.
+
+    style.css:
+        Defines the visual styling for the web application.
+        Styles include layout configurations, form element designs, and result display styling.
+
+    calculator.js:
+        Core JavaScript file for handling calculations.
+        Implements functions for capturing form submissions, processing calculations, and updating the web page with results.
+
+    javascript
+
+// Code handles user input, performs calculations, and updates the DOM with results.
+
+server.js (Optional):
+
+    Sets up an Express.js server for serving the web application.
+    Manages the delivery of static files (HTML, CSS, JS) to the client.
+
+javascript
+
+    // Node.js server configuration using Express to serve the web application.
+
+    inputHandler.js and outputHandler.js (Optional):
+        Separate scripts for handling specific aspects of the application.
+        inputHandler.js focuses on validating and processing user input.
+        outputHandler.js is dedicated to formatting and displaying output or messages to the user.
+
+Transition from PowerShell to Web:
+
+    The core functionality, initially in PowerShell scripts (Calculator.ps1, InputHandler.ps1, OutputHandler.ps1), has been translated and adapted into JavaScript, aligning with web standards.
+    The web application is designed to enhance accessibility and usability, targeting a broader user base compared to the PowerShell-based tool.

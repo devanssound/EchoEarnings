@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoEarnings - Wage and Salary Calculator</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Linking the main stylesheet -->
+</head>
+<body>
+    <header>
+        <h1>EchoEarnings</h1>
+        <nav>
+            <!-- Navigation bar (if needed), otherwise remove this -->
+        </nav>
+    </header>
+
+    <main>
+        <section id="calculator">
+            <h2>Calculate Your Earnings</h2>
+            <form id="earningsForm">
+                <label for="incomeType">Income Type:</label>
+                <select id="incomeType" name="incomeType">
+                    <option value="hourly">Hourly Wage</option>
+                    <option value="salary">Annual Salary</option>
+                </select>
+
+                <label for="incomeValue">Value:</label>
+                <input type="number" id="incomeValue" name="incomeValue" required>
+
+                <button type="submit">Calculate</button>
+            </form>
+
+            <div id="results">
+                <!-- Results will be displayed here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 EchoEarnings. All rights reserved.</p>
+    </footer>
+
+    <script src="js/calculator.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>

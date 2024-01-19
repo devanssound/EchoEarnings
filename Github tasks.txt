@@ -1,0 +1,6 @@
+Github tasks
+- Coauthor in a merged pull request
+- 2 pull requests merged
+- 2 accepted answers
+- Merge a Pull request without code review
+- Contributed to the Mars 2020 Helicopter Mission by adding code to a repository
